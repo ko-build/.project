@@ -7,10 +7,10 @@
 schema_version: "1.0.0"
 slug: "ko"
 name: "ko"
-description: "Kompose is a tool to help users who are familiar with docker-compose move to Kubernetes. It takes a Docker Compose file and translates it into Kubernetes resources."
+description: "ko is a tool to simplify building Go container images"
 type: "project"
-project_lead: "imjasonh" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "imjasonh"
+slack_channels:
   - name: "#ko-build"
     link: "https://slack.k8s.io"
     primary: true
@@ -18,7 +18,7 @@ slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
 maturity_log:
   - phase: "sandbox"
     date: "2022-12-14T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/163" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/163"
 
 repositories:
   - "https://github.com/ko-build/ko"
